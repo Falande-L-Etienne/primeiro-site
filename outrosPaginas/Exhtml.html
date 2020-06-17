@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes HTML</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <!-- Cabeçalho do corpo-->
+        <h2>Meu primeiro excercício</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="ExCss.html">CSS</a></li>
+                <li><a href="ExJavascript.html">Javascript</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="corpo">
+        <section class="formatListas">
+            <h2>Exemplos De Listas </h2>
+
+            <h3>lista não classificada</h3>
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+
+            <h3>lista classificada</h3>
+            <ol>
+                <li>item 1</li>
+                <li>item 3</li>
+                <li>item 2</li>
+            </ol>
+
+            <h3>lista classificada com sublista usando uma lista não classificada</h3>
+            <ol>
+                <li>item 1</li>
+                <ul>
+                    <li>primeiro item</li>
+                    <li>segundo item</li>
+                    <li>terceiro item</li>
+                </ul>
+                <li>item 3</li>
+                <li>item 2</li>
+            </ol>
+
+            <dl>
+                <h3>Aqui é uma lista de definição com o titulo e a sua definição</h3>
+
+                <dt>Scrum</dt>
+                <dd>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                    Tempore sequi, harum exercitationem soluta amet hic inven<br>
+                    tore, in, deleniti esse quasi nostrum quibusdam alias sit <br>
+                    vero doloribus nisi fugit possimus ipsa.
+                </dd>
+
+                <dt>Navegador</dt>
+                <dd>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                    Tempore sequi, harum exercitationem soluta amet hic inven<br>
+                    tore, in, deleniti esse quasi nostrum quibusdam alias sit<br>
+                    vero doloribus nisi fugit possimus ipsa.
+                </dd>
+            </dl>
+        </section>
+
+        <section class="formatTexto">
+            <h2>Exemplos De Formatação De Textos </h2>
+            <p>
+                Vamos ver como é feito cada um desses formatação.<br>
+                Qual tag usar pra cada um.
+
+            </p>
+
+            <ul>
+                <li>
+                    <b>Texto negrito</b> - <code>&lt;b&gt;Texto negrito&lt;/b&gt;</code>
+                </li>
+                <li>
+                    <strong>Texto forte</strong> - <code>&lt;strong&gt;Texto forte&lt;/strong&gt;</code>
+                </li>
+                <li>
+                    <em>Texto enfatizado</em> - <code>&lt;em&gt;Texto enfatizado&lt;/em&gt;</code>
+                </li>
+                <li>
+                    <i>Texto itálico</i> - <code>&lt;i&gt;Texto itálico&lt;/i&gt;</code>
+                </li>
+                <li>
+                    <mark>Texto grifado</mark> - <code>&lt;mark&gt;Texto grifado&lt;/mark&gt;</code>
+                </li>
+                <li>
+                    <big>Texto grande</big> - <code>&lt;big&gt;Texto grande&lt;/big&gt;</code>
+                </li>
+                <li>
+                    <small>Texto pequeno</small> - <code>&lt;small&gt;Texto pequeno&lt;/small&gt;</code>
+                </li>
+                <li>
+                    <del>Texto taxado</del> - <code>&lt;del&gt;Texto taxado&lt;/del&gt;</code>
+                </li>
+                <li>
+                    <ins>Texto inserido</ins> - <code>&lt;ins&gt;Texto inserido&lt;/ins&gt;</code>
+                </li>
+                <li>
+                    <u>Texto sublinhado</u> - <code>&lt;u&gt;Texto sublinhado&lt;/u&gt;</code>
+                </li>
+                <li>
+                    esse é um<sub>Texto subscrito</sub> - <code>&lt;sub&gt;Texto subscrito&lt;/sub&gt;</code>
+                </li>
+                <li>
+                    esse é um<sup>Texto sobresrito</sup> - <code>&lt;sup&gt;Texto sobresrito&lt;/sup&gt;</code>
+                </li>
+            </ul>
+        </section>
+
+        <p>***************************************************</p>
+
+        <section class="formatLink">
+            <h2>Exemplos De Links </h2>
+            <!-- Link para outro site -->
+            <h3>vamos ver como colocar um link para abrir um site</h3>
+            <p>
+                Visite o site da <a href="https://www.proway.com.br" target="_blank">proway</a><br><br>
+                <code>&lt;a href="Aqui o link" target="_blank"&gt;Qual site&lt;/a&gt;</code>
+            </p>
+            <h3>O tag target="_blank" abre o site usando uma nova aba do navegador</h3>
+        </section>
+
+        <p>***************************************************</p>
+
+        <section class="formatLinBookmark">
+            <!-- Link para um bookmark da propria pagina -->
+            <h4>Aqui a página vai te redicionar pela parte que você deseja dentro da propria página</h4>
+            <p>
+                vá até a area de exemplos de <a href="#formatacao">formatação</a>
+            </p>
+        </section>
+
+        <p>***************************************************</p>
+
+        <section class="formatHome">
+            <!-- Link para voltar na página principal -->
+            <p>
+                a descrição do curso se encontra <a href="../index.html">página principal</a> deste site.
+            </p>
+        </section>
+
+        <p>***************************************************</p>
+
+        <section class="formatImag">
+            <h2>Exemplos para carregar imagem</h2>
+            <!-- Link para uma página do próprio site  -->
+            <figure>
+                <a href="htpps://pt.wikipedia.org/wiki/COBOL">
+                    <img src="../img/Mia-foto.jpg" alt="Falande" width="100">
+                </a>
+            </figure>
+        </section>
+
+        <p>***************************************************</p>
+
+        <section class="formatLinkEmail">
+            <!-- Link para E-mail  -->
+            <p>
+                Gostou da nossa oferta? entre
+                <a href="mailto:falande2512@gmail.com?subject=Contato&body=estou entrando 
+                      em contato referente a oferta">Contato</a>!
+            </p>
+        </section>
+        <p>***************************************************</p>
+
+        <section class="formatTabela">
+            <h2>Exemplos de Tabelas</h2>
+
+            <table border=1>
+                <tr>
+                    <td>linha 1, coluna 1</td>
+                    <td>linha 1, coluna 2</td>
+                </tr>
+                <tr>
+                    <td>linha 2, coluna 1</td>
+                    <td>linha 2, coluna 2</td>
+                </tr>
+            </table>
+            <br><br>
+
+            <table border=1 width=100%>
+                <tr>
+                    <th>cabeçalho 1</th>
+                    <th>cabeçalho 2</th>
+                </tr>
+                <tr>
+                    <td>
+                        <center>linha 1, coluna 1</center>
+                    </td>
+                    <td align="right">linha 1, coluna 2</td>
+                </tr>
+                <tr>
+                    <td>linha 2, coluna 1</td>
+                    <td>linha 2, coluna 2</td>
+                </tr>
+            </table>
+            <br><br>
+
+            <!--tabela com exemplo de colunas mesclas usando colspan-->
+            <table border=1>
+                <tr>
+                    <th>coluna 1</th>
+                    <th>coluna 2</th>
+                    <th>coluna 3</th>
+                </tr>
+                <tr>
+                    <td>linha 1, coluna 1</td>
+                    <td>linha 1, coluna 2</td>
+                    <td>linha 1, coluna 3</td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">linha 2, coluna 1</td>
+                    <td>linha 2, coluna 2</td>
+                </tr>
+            </table>
+            <br><br>
+
+            <!-- tabela com exemplo de linhas mesclas usando rowspan-->
+            <table border=1>
+                <tr>
+                    <th>coluna 1</th>
+                    <th>coluna 2</th>
+                    <th>coluna 3</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">linha 1, coluna 1</td>
+                    <td>linha 1, coluna 2</td>
+                    <td>linha 1, coluna 3</td>
+                </tr>
+                <tr>
+                    <td>linha 2, coluna 1</td>
+                    <td>linha 2, coluna 2</td>
+                </tr>
+            </table>
+            <br><br>
+
+            <!--  -->
+            <table width=70% border=1 cellspacing="0" cellpadding="0" bgcolor="blue" aling="center">
+                <caption><strong><i>Nota Fria Papelaria</i></strong></caption>
+                <thead>
+                    <tr>
+                        <th width="50%" height="75">quantidade</th>
+                        <th>descrição</th>
+                        <th>preço unit.</th>
+                        <th>preço total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2</td>
+                        <td>lapis de cor</td>
+                        <td>R$5,00</td>
+                        <td>R$10,00</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>caderno brochura 60f</td>
+                        <td>R$3,00</td>
+                        <td>R$12,00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><b>Total</b></td>
+                        <td>R$22,00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <section id="contato">
+            <h3>Contato</h3>
+            <p>
+
+                Author: Falande Loiseau Etienne.<br>
+                Email: falande2512@gmail.com<br>
+
+            </p>
+        </section>
+    </footer>
+
+
+</body>
+
+</html>
